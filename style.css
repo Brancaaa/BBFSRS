@@ -63,3 +63,18 @@ footer {
     background: #333;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    .news {
+        flex-direction: column;
+    
+    }
+    
+    .newsimage {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
