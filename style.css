@@ -37,11 +37,18 @@ nav ul li a {
     text-decoration: none;
 }
 .news {
+    display: flex; 
+    align-items: center;
     border: solid 1px #111;
     padding: 20px;
     margin-bottom: 20px;
 }
 
+.newsimage {
+    max-width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
 
 section {
     padding: 20px;
