@@ -63,6 +63,7 @@ footer {
     background: #333;
     color: #fff;
     text-decoration: none;
+    link-style: none;
 }
 
 @media (max-width: 768px) {
