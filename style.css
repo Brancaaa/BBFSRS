@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -22,6 +26,7 @@ header {
     padding: 10px; 
 }
 
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -39,15 +44,19 @@ nav ul li a {
 .news {
     display: flex; 
     align-items: center;
+    
     border: solid 1px #111;
     padding: 20px;
     margin-bottom: 20px;
 }
-
 .newsimage {
     max-width: 250px;
     height: auto;
     margin-right: 20px;
+}
+
+.registar li {
+    font-style: oblique; 
 }
 
 section {
@@ -62,21 +71,18 @@ footer {
     padding: 1rem;
     background: #333;
     color: #fff;
-    text-decoration: none;
-    link-style: none;
 }
+
 
 @media (max-width: 768px) {
     .news {
-        flex-direction: column;
+    flex-direction: column;
     
-    }
-    
-    .newsimage {
-        margin-bottom: 20px;
-    }
-
 }
 
+.newsimage {
+    
+    margin-bottom: 20px;
+}
 
-
+}
